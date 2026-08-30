@@ -1,0 +1,23 @@
+preview 预览 missing 失踪 required 要求 positional 位置 strip 剥夺,条,带 Dictation默写 cipher密码
+cancel 取消，删除 export 导出  load 负载，加载 dump 转储
+refactor 重构  score 分数
+cover 封面，涉及 product产品  context 上下文 actions 行为过程，动作空间 paste 粘贴 special 特殊的 column 列，柱 usages用法 folding折叠 generate生成 more  更多 history 历史 console控制台 
+execute执行 compare比较
+clipboard 剪贴板 diagrams图表  lineage 血统 version 版本 control控制  injected 注入
+modify 修改 tool工具 
+structure结构 services服务 terminal终端 problems问题
+indent缩进  release 释放   available 可用  session会话 Requirement要求  collected  收集  yield 出产 收益 屈服
+proxies 代理  task任务 "Crawler"爬虫
+switch 开关  greenlet （model）实现协程 setting 设置 client 客户端 container 容器 exist 生存，生活 impersonate 模仿
+collection 集合 picture 图片 ascii document 文件 Notation符号 NaN=（Not a Number）Reference 参考
+custom 自定义 at least 至少 least 这个词很常用，最核心的意思就是“最少”或“最小”，它是 little 的最高级形式
+not in the least：一点也不。比如：I'm not in the least tired.（我一点儿也不累。）
+to say the least：至少可以说，保守地说。比如：The movie was boring, to say the least.（这部电影，保守地说，挺无聊的。）
+already 是一个非常常用的英语副词，意思是“已经”、“早已”。
+在日常交流中，它主要有两个常见用法：
+用于肯定句：表示某事在某个时间点之前已经发生或完成。
+I have already finished my homework.（我已经做完作业了。）
+用于疑问句：表示惊讶，意为“已经……了吗？”
+Are you leaving already?（你这么快就要走了吗？）
+💡 语法小贴士：
+在句子中，它通常放在 be 动词、助动词（如 have）之后，或者实义动词之前。
