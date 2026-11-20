@@ -81,11 +81,11 @@ using namespace std;
 int main(){
     for(int n=1;n<101;n++){
         if(n%10==7){
-            cout << "�V��l" << endl;
+            cout << "click" << endl;
         }else if(n%7==0){
-            cout << "�V��l" << endl;
+            cout << "click" << endl;
         }else if((n/10)%10==7){
-            cout << "�V��l" << endl;
+            cout << "click " << endl;
         }else{
             cout << n << endl;
         }
