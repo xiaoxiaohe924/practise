@@ -2,7 +2,7 @@ preview 预览 missing 失踪 required 要求 positional 位置 strip 剥夺,条
 cancel 取消，删除 export 导出  load 负载，加载 dump 转储
 refactor 重构  score 分数
 cover 封面，涉及 product产品  context 上下文 actions 行为过程，动作空间 paste 粘贴 special 特殊的 column 列，柱 usages用法 folding折叠 generate生成 more  更多 history 历史 console控制台 
-execute执行 compare比较
+execute执行 compare比较 access 进入，通道 tough v.坚持 abj. 强壮的 n. 暴徒  modified abj. 修改
 clipboard 剪贴板 diagrams图表  lineage 血统 version 版本 control控制  injected 注入
 modify 修改 tool工具 
 structure结构 services服务 terminal终端 problems问题
