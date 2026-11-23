@@ -34,44 +34,52 @@
 //     system("pause");
 //     return 0;
 // }
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
 
-using namespace std;
+// #include <ctime>
 
-
+#include "myheader.h"
+int add(int num1, int num2)
+{
+	int sum = num1 + num2;
+	return sum;
+}
+void myFunction() {
+    cout << "This is a function from myheader.h" << endl;
+}
 
 int main(){
-    srand((unsigned)time(NULL));
-    int number=rand()%100+1;
-    int input_number;
+//     srand((unsigned)time(NULL));
+//     int number=rand()%100+1;
+//     int input_number;
     
-   do{
-        cout << "Please input a number: ";
-        cin>> input_number;
-        if (cin.fail()){
-            cout << "Invalid input. Please enter a valid integer." << endl;
-            cin.clear();
-            cin.ignore(100,'\n');
+//    do{
+//         cout << "Please input a number: ";
+//         cin>> input_number;
+//         if (cin.fail()){
+//             cout << "Invalid input. Please enter a valid integer." << endl;
+//             cin.clear();
+//             cin.ignore(100,'\n');
             
-        }else{
+//         }else{
             
         
         
-        if(input_number>number){
-            cout<<"big"<<endl;
+//         if(input_number>number){
+//             cout<<"big"<<endl;
             
             
 
-        }else if(input_number<number){
-                cout<<"small"<<endl;
+//         }else if(input_number<number){
+//                 cout<<"small"<<endl;
                 
                 
-        }
+//         }
 
-    } }while(input_number!=number);
-    cout << "Congratulations! You guessed the correct number: " << number << endl;
+//     } }while(input_number!=number);
+//     cout << "Congratulations! You guessed the correct number: " << number << endl;
+    int num1=add(10,20);
+    myFunction();
+    cout << "The sum of 10 and 20 is: " << num1 << endl;
     system("pause");
     return 0;
     }

@@ -1,13 +1,6 @@
 // char pstr[]="Hello, World!";
 // const char *pstr2="Hello, World!";
-
-
-
-#include <iostream>
-
-
-
-using namespace std;
+#include "myheader.h"
 // int main() {
 //     int num1;
 //     int num2;
@@ -79,17 +72,51 @@ using namespace std;
     
 // }
 int main(){
-    for(int n=1;n<101;n++){
-        if(n%10==7){
-            cout << "click" << endl;
-        }else if(n%7==0){
-            cout << "click" << endl;
-        }else if((n/10)%10==7){
-            cout << "click " << endl;
-        }else{
-            cout << n << endl;
-        }
-    }  
+    // for(int n=1;n<101;n++){
+    //     if(n%10==7){
+    //         cout << "click" << endl;
+    //     }else if(n%7==0){
+    //         cout << "click" << endl;
+    //     }else if((n/10)%10==7){
+    //         cout << "click " << endl;
+    //     }else{
+    //         cout << n << endl;
+    //     }
+    // }  
+    // int arr[5][6]={{1,2,3,4,5,6},{7,8,9,10,11,12},{13,14,15,16,17,18},{19,20,21,22,23,24},{25,26,27,28,29,30}};
+    // cout << "二维数组大小： " << sizeof(arr) << endl;
+	// cout << "二维数组一行大小： " << sizeof(arr[0]) << endl;
+	// cout << "二维数组元素大小： " << sizeof(arr[0][0]) << endl;
+
+	// cout << "二维数组行数： " << sizeof(arr) / sizeof(arr[0]) << endl;
+	// cout << "二维数组列数： " << sizeof(arr[0]) / sizeof(arr[0][0]) << endl;
+
+	// //地址
+	// cout << "二维数组首地址：" << arr << endl;
+    // // "二维数组第一行地址：" 
+	// cout << dec << arr[0] << endl;
+	// cout << "二维数组第二行地址：" << arr[1] << endl;
+
+	// cout << "二维数组第一个元素地址：" << &arr[0][0] << endl;
+	// cout << "二维数组第二个元素地址：" << &arr[0][1] << endl;
+    // int arr[3][3]={{100,100,100},{90,50,100},{60,70,80}};
+    // string name[3] = {"chan_sang", "li_si", "wang_wu"};
+    // for(int i=0;i<3;i++){
+    //     int sums=0;
+    //     for(int j=0;j<3;j++){
+    //         // cout<<arr[i][j]<<' ';
+    //         sums+=arr[i][j];
+            
+
+    //     }
+    //     cout<<name[i]<<": "<<sums<<endl;
+    //     cout<<endl;
+    // }
+    int a=10;
+    int *p=&a;
+    p=20;
+    cout << *p << endl;
+    cout << a << endl;
     return 0;
     
  }
