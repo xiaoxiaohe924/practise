@@ -119,7 +119,9 @@ int main(){
     // cout << *p << endl;
     // return 0;
     int *p = &a;
-    cout << "a的地址：" << p << endl;
+    cout << "a的地址:" << p << endl;
+    delete p; // 释放指针所指向的内存
+    p = NULL; // 将指针置为空，避免悬空指针
     
  }
 // int main(){
