@@ -113,11 +113,13 @@ int main(){
     //     cout<<endl;
     // }
     int a=10;
-    int *p=&a;
-    p=20;
-    cout << *p << endl;
-    cout << a << endl;
-    return 0;
+    // int * p = (int *)0x1100;
+    // cout << *p << endl;
+    // p=NULL;
+    // cout << *p << endl;
+    // return 0;
+    int *p = &a;
+    cout << "a的地址：" << p << endl;
     
  }
 // int main(){
